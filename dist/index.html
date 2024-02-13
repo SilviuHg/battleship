@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Battleship</title>
+  </head>
+  <body>
+    <div class="waitShips"></div>
+    <header class="header">
+      <h1>BATTLESHIP</h1>
+    </header>
+    <div class="main">
+      <div class="main-container">
+        <div class="boardOne"></div>
+        <div class="boardTwo"></div>
+      </div>
+      <div class="game-start">
+        <p>Place your ships!</p>
+        <button id="rotate">Rotate</button>
+        <div class="boardThree"></div>
+      </div>
+      <div class="game-end not-active">
+        <p class="game-result"></p>
+        <button id="restart">Play again</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
